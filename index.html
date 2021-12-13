@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fairuz</title>
+    <title>Fairuz Bank</title>
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <h1>fdldl</h1>
+    <!-- header section -->
+    <header>
+        <h1 class="text-5xl text-center mt-16"> Welcome To <span class="font-bold text-teal-600">Fairuz</span> Bank!!
+        </h1>
+    </header>
+    <main>
+        <section class="bg-teal-100 w-3/4 p-8 mx-auto mt-8 ">
+            <h3 class="text-2xl mb-4 rounded font-medium">Please Login</h3>
+
+            <div>
+                <input id="user-email" class="border block border-teal-400	rounded w-3/4 mb-4 px-2" type="text"
+                    placeholder="your email">
+                <input id="user-password" class="border block border-teal-400	rounded w-3/4 mb-4 px-2" type="password"
+                    name="" id="" placeholder="password">
+                <button id="login-submit" class="bg-teal-600 px-4 rounded py-2 text-white font-medium">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/bank.js"></script>
+
 </body>
 
 </html>
